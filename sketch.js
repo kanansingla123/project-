@@ -36,7 +36,13 @@ function setup() {
 
 
 function draw() {
+
+	textSize (56)
+	text ("press:upkey",500,60)
   rectMode(CENTER);
+ 
+
+
   background(230);
 
   roof.display();
